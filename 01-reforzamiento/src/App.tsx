@@ -1,7 +1,13 @@
-import React from 'react'
+// import { Usuarios } from './components/Usuarios';
+// import { Login } from './components/Login';
 // import { TiposBasicos } from './typescript/TiposBasicos';
 // import { ObjetosLiterales } from './typescript/ObjetosLiterales';
-import { Funciones } from './typescript/Funciones';
+// import { Funciones } from './typescript/Funciones';
+// import { Contador } from './components/Contador';
+// import { ContadorConHook } from './components/ContadorConHook';
+
+import { Formularios } from "./components/Formularios";
+
 
 const App = () => {
   return (
@@ -10,7 +16,12 @@ const App = () => {
       <hr />
       {/* <TiposBasicos /> */}
       {/* <ObjetosLiterales/> */}
-      <Funciones />
+      {/* <Funciones /> */}
+      {/* <Contador/> */}
+      {/* <ContadorConHook/> */}
+      {/* <Login/> */}
+      {/* <Usuarios/> */}
+      <Formularios/>
     </div>
   )
 }
